@@ -1,4 +1,4 @@
-def main(n):
+def main(n = 3.5):
     """A integer type variable 'n' is given. Return the value of the expression in README.md file.
     https://github.com/codeschool43/Build_in_function_homework#build_func03
 
@@ -8,4 +8,6 @@ def main(n):
     Returns:
         float: the value of the expression
     """
-    return
+    x = 3 * pow((n + 1),2)
+    return x
+print (main())
